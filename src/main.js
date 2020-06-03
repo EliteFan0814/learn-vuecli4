@@ -5,6 +5,7 @@ import ElementUI from 'element-ui'
 import VueI18n from 'vue-i18n'
 import 'element-ui/lib/theme-chalk/index.css'
 import messages from './components/common/i18n'
+import './components/common/directives' // 引入自定义指令
 
 Vue.config.productionTip = false
 Vue.use(ElementUI, { size: 'small' })

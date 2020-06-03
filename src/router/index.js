@@ -8,6 +8,11 @@ export default new Router({
     {
       path: '/',
       redirect: '/dashboard'
+    },
+    {
+      path: '/login',
+      component: () => import(/* webpackChunkName: "login" */ '../components/page/Login.vue'),
+      meta: { title: '登录' }
     }
   ]
 })
